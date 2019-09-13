@@ -1,0 +1,173 @@
+@media only screen and (max-width: 1300px){
+	.img__intro{
+		display: none;
+	}
+	.img__intro__mobile{
+		margin: 30px auto;
+		display: block!important;
+		text-align:center;
+	}
+	.intro__inner{
+		justify-content: center;
+	}
+	.intro{
+		padding-bottom: 50px !important;
+	}
+	.qualite{
+		margin-left: 30px!important;
+    	margin-right: 30px!important;
+	}
+	.intro__about > .headline{
+		text-align: center;
+	}
+	.qualities{
+		justify-content: space-between;
+	}
+	.nav{
+		position: absolute;
+	    background: #212121;
+	    padding-top: 10px;
+	    padding-bottom: 10px;
+	    right: 0;
+	    left: 0;
+	    top: 63px;
+	    z-index: 20;
+	    display: none;
+	}
+	.nav__admin{
+		position: absolute;
+	    background: #212121;
+	    padding-top: 10px;
+	    padding-bottom: 10px;
+	    right: 0;
+	    left: 0;
+	    top: 144px;
+	    z-index: 20;
+	    display: none;
+	}
+	.nav__item{
+		display: block !important;
+		text-align:center;
+		margin-right: 0 !important;
+		margin-top: 20px;
+	}
+	.menu__bar,.menu__admin__bar{
+		display: block;
+	}
+}
+
+@media only screen and (max-width: 768px){
+	.img__intro > img {
+    	width: 535px;
+	}
+	h1{
+		font-size: 36px;
+	}
+	h2{
+		font-size: 30px;
+	}
+	.inner__contact{
+		flex-direction: column;
+		justify-content: center;
+	}
+	.social, .contact__form {
+	    width: 100%;
+	}
+	.soc__btn> p{
+		text-align:center;
+	}
+	.social{
+		margin-bottom: 40px;
+	}
+	.contact .headline > h2{
+		display: none;
+	}
+	
+	.contact .headline {
+		margin-bottom: 0 !important;
+	}
+	.soc__btn> p{
+		font-size: 18px;	
+	}
+	.applications__row > p > span > img{
+		width: 400px;	
+	}
+}
+@media only screen and (max-width: 576px){
+	.img__intro > img {
+	    width: 100%;
+	}
+	.qualities{
+		flex-direction: column;
+	}
+	.qualite{
+		margin:10px 0px!important;
+	}
+	.btn__default{
+		width: auto;
+	}
+	h1 {
+	    font-size: 34px;
+	}
+	.reg_auth__content > form > input,.portfolio__content > form > input{
+		margin: 0 0 20px 0;
+		width: auto;
+	}
+	.applications__row > p > span > img{
+		width: 300px;	
+	}
+}
+@media only screen and (max-width: 400px){
+	h1{
+		font-size: 27px;
+	}
+	.btn__default{
+		font-size: 16px;
+	}
+	.applications__row > p > span > img{
+		width: 100%;	
+	}
+	p{
+		font-size: 14px;
+	}
+
+	.img__portfolio{
+		height: 200px;
+	}
+	.item__carousel__testimonial > p{
+		font-size: 15px;
+	}
+	.soc__btn> p{
+		font-size: 14px;
+	}
+	.inp__contact{
+		font-size: 16px;
+	}
+	.logo a > span{
+		font-size: 18px;
+		vertical-align: super;
+	}
+	.logo a{
+		display: block;
+	}
+	.nav{
+		top:55px;
+	}
+	.menu__bar > i , .menu__admin__bar > i{
+		font-size: 20px;
+		padding: 6px 11px;
+	}
+	.menu__admin__bar > span {
+		font-size: 18px;
+	}
+	.admin__panel{
+		margin-bottom: 0 !important;
+		margin-top: 10px !important;
+	}
+	.contact__row > p{
+		font-size: 16px;
+	}
+	.nav__admin{
+		top: 99px;
+	}
+}
